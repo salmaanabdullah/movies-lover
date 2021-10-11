@@ -1,0 +1,18 @@
+{
+  "module": "es6",
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "jsx": "react",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "alwaysStrict": true,
+    "paths": {
+      "src/*": ["src/*"]
+    }
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"],
+  "compileOnSave": false
+}

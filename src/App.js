@@ -3,6 +3,7 @@ import { ConnectedRouter } from 'connected-react-router/immutable';
 import ErrorBoundary from 'src/components/ErrorBoundary';
 import { Route, Switch } from 'react-router-dom';
 import { history } from 'src/store/store';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './scss/style.scss';
 
 const DefaultLayout = lazy(() => import('./layout'));

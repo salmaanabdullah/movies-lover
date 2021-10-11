@@ -1,0 +1,64 @@
+@import 'src/scss/variables';
+
+.title {
+  background: $primary;
+  height: 56px;
+  color: white;
+  line-height: 56px;
+}
+
+.favoriteBtn {
+  background: #746a64;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  height: 56px;
+  width: 100%;
+}
+
+.videoCard {
+  background: #fafafa;
+  border-radius: 2px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding: 1rem;
+
+  > p {
+    margin-left: 1rem;
+  }
+}
+
+.media {
+  margin-top: 1.5rem;
+}
+
+.overview {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #757575;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.releaseDate {
+  font-size: 20px;
+  line-height: 24px;
+  color: $textColor;
+  margin-bottom: 0;
+}
+
+.duration {
+  font-style: italic;
+  font-size: 14px;
+  line-height: 24px;
+  color: $textColor;
+  margin-bottom: 0;
+}
