@@ -2,7 +2,6 @@ import { call, put } from 'redux-saga/effects';
 import { Movies } from 'src/services/movies';
 import { getMovieDetailsAction, getMovies } from './movies.action';
 import * as moviesSaga from './movies.saga';
-
 describe('Movies Saga Tests', () => {
   it('getMoviesData', () => {
     const page = 1;
@@ -12,7 +11,6 @@ describe('Movies Saga Tests', () => {
     const response = {
       data: { page, results, total_pages, total_results },
     };
-
     const gen = moviesSaga.getMoviesData();
     expect(gen.next().value).toEqual(call(Movies.get));
     expect(gen.next(response).value).toEqual(

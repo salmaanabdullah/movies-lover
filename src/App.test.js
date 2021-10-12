@@ -6,3 +6,7 @@ it('mounts App without crashing', () => {
   const wrapper = shallow(<App />);
   wrapper.unmount();
 });
+
+it('expect to render app component', () => {
+  expect(shallow(<App />)).toMatchSnapshot();
+});

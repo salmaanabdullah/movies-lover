@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`expect to render movie component 1`] = `
+<div>
+  <div
+    className="videoCard"
+  >
+    <img
+      alt="play button"
+      src="playBtn.svg"
+    />
+    <p
+      className="mb-0"
+    />
+  </div>
+</div>
+`;

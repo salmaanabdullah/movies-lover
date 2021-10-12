@@ -32,6 +32,7 @@
     "history": "4.10.1",
     "immutable": "^4.0.0-rc.14",
     "prop-types": "^15.7.2",
+    "react": "^17.0.2",
     "react-bootstrap": "^2.0.0-rc.0",
     "react-dom": "^17.0.2",
     "react-immutable-proptypes": "^2.2.0",
@@ -47,6 +48,7 @@
     "@wojtekmaj/enzyme-adapter-react-17": "^0.6.3",
     "cross-env": "^7.0.3",
     "enzyme": "^3.11.0",
+    "enzyme-to-json": "^3.6.2",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^3.4.1",
@@ -54,7 +56,6 @@
     "lint-staged": "^10.5.4",
     "prettier": "2.3.2",
     "pretty-quick": "^2.0.1",
-    "react": "^17.0.2",
     "react-app-polyfill": "^2.0.0",
     "react-scripts": "^4.0.3",
     "sass": "^1.38.0"
@@ -65,6 +66,9 @@
       "!**/*index.js",
       "!src/serviceWorker.js",
       "!src/polyfill.js"
+    ],
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
     ]
   },
   "engines": {
